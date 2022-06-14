@@ -223,7 +223,7 @@ INSERT INTO voto (voto_partido, voto_mesa, voto_eleccion, voto_cantidad) VALUES(
 INSERT INTO voto (voto_partido, voto_mesa, voto_eleccion, voto_cantidad) VALUES(3,25,1,1);
 INSERT INTO voto (voto_partido, voto_mesa, voto_eleccion, voto_cantidad) VALUES(4,25,1,36);
 INSERT INTO voto (voto_partido, voto_mesa, voto_eleccion, voto_cantidad) VALUES(5,25,1,51);
---VOTOS ALCALDA
+--VOTOS ALCALDE
 INSERT INTO voto (voto_partido, voto_mesa, voto_eleccion, voto_cantidad) VALUES(1,1,2,5);
 INSERT INTO voto (voto_partido, voto_mesa, voto_eleccion, voto_cantidad) VALUES(2,1,2,34);
 INSERT INTO voto (voto_partido, voto_mesa, voto_eleccion, voto_cantidad) VALUES(3,1,2,2);

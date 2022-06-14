@@ -38,9 +38,8 @@ CREATE TABLE Partido(
     --CONSTRAINT EQUIPO_VISITANTE_PARTIDO_FK FOREIGN KEY (Equipo_equipo1) REFERENCES Equipo(equipo)
 );
 
-DROP TABLE Liga;
-DROP TABLE Jornada;
-DROP TABLE Equipo;
-DROP TABLE Jugador;
-DROP TABLE Partido;
-
+--DROP TABLE Liga;
+--DROP TABLE Jornada;
+--DROP TABLE Equipo;
+--DROP TABLE Jugador;
+--DROP TABLE Partido;
