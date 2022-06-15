@@ -1,0 +1,6 @@
+USERID=EQUIPOS
+DIRECTORY=backup_equipos
+DUMPFILE=backup_jugador_equipo.dmp
+LOGFILE = backup_jugador_equipo.log
+TABLES=Jugador,Equipo
+CONTENT=metadata_only

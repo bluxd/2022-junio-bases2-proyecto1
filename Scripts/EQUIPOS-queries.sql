@@ -36,3 +36,6 @@ cp /u01/app/oracle/admin/XE/dpdump/backup_jugador_equipo.dmp /u01/app/oracle/bac
 cp /u01/app/oracle/admin/XE/dpdump/backup_liga_jornada.dmp /u01/app/oracle/backup-equipos/backup_liga_jornada.dmp
 chmod u=rw,g=r,o=r backup*
 
+
+
+

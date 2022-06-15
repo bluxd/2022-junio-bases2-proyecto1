@@ -1,0 +1,5 @@
+USERID=EQUIPOS
+DIRECTORY=backup_equipos
+DUMPFILE=backup_liga_jornada.dmp
+LOGFILE = backup_liga_jornada.log
+TABLES=Liga,Jornada

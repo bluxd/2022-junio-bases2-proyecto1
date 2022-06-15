@@ -29,3 +29,20 @@ shutdown IMMEDIATE
 startup
 
 vi /u01/app/oracle/product/11.2.0/xe/dbs/spfileXE.ora
+
+
+
+CREATE DIRECTORY backup_equipos  AS  '/u01/app/oracle/backup-equipos';
+GRANT read, write ON DIRECTORY backup_equipos TO EQUIPOS;
+
+expdp -parfile export_jugador_equipo.par
+expdp -parfile export_liga_jornada.par
+
+impdp -parfile export_jugador_equipo.par
+impdp -parfile export_liga_jornada.par
+
+chmod u=rw,g=r,o=r backup*
+
+
+
+

@@ -1,0 +1,16 @@
+;;; 
+Import: Release 11.2.0.2.0 - Production on Wed Jun 15 00:54:47 2022
+
+Copyright (c) 1982, 2009, Oracle and/or its affiliates.  All rights reserved.
+;;; 
+Connected to: Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production
+Master table "EQUIPOS"."SYS_IMPORT_TABLE_01" successfully loaded/unloaded
+Starting "EQUIPOS"."SYS_IMPORT_TABLE_01":  EQUIPOS/******** -parfile export_liga_jornada.par 
+Processing object type TABLE_EXPORT/TABLE/TABLE
+Processing object type TABLE_EXPORT/TABLE/TABLE_DATA
+. . imported "EQUIPOS"."JORNADA"                         5.984 KB      11 rows
+. . imported "EQUIPOS"."LIGA"                              6.5 KB       1 rows
+Processing object type TABLE_EXPORT/TABLE/CONSTRAINT/CONSTRAINT
+Processing object type TABLE_EXPORT/TABLE/INDEX/STATISTICS/INDEX_STATISTICS
+Processing object type TABLE_EXPORT/TABLE/STATISTICS/TABLE_STATISTICS
+Job "EQUIPOS"."SYS_IMPORT_TABLE_01" successfully completed at 00:54:55

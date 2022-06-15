@@ -1,0 +1,10 @@
+;;; 
+Export: Release 11.2.0.2.0 - Production on Wed Jun 15 00:56:36 2022
+
+Copyright (c) 1982, 2009, Oracle and/or its affiliates.  All rights reserved.
+;;; 
+Connected to: Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production
+ORA-39000: bad dump file specification
+ORA-31641: unable to create dump file "/u01/app/oracle/backup-equipos/backup_jugador_equipo.dmp"
+ORA-27038: created file already exists
+Additional information: 1
